@@ -14,7 +14,7 @@ public class CustomersModel : PageModel
         Customers = new List<Customer>();
 
         //Make a connection to the database
-        string connectionString = "Server=localhost;Database=Northwind;UserId=sa;Password=P@ssw)rd; ; TrustServerCertificate=True;";
+        string connectionString = "Server=localhost;Database=Northwind;User Id=sa;Password=P@ssw0rd; ; TrustServerCertificate=True;";
 
         // Connect to the database
         using (SqlConnection connection = new SqlConnection(connectionString))
